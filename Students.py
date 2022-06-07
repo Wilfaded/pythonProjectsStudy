@@ -27,7 +27,7 @@ def counter(students):
 
 
 def main():
-    students = [STUDENT() for _ in range(2)]
+    students = [STUDENT() for _ in range(10)]
     students.sort(key=lambda person: person.lastname)
     print(students)
 
